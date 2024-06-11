@@ -122,7 +122,10 @@
                 });
             }
 
-           
+            window.addEventListener('click', () => {
+                const bs = document.getElementById("bs")
+                bs.play()
+            })
 
             window.addEventListener('scroll', checkVisibility);
             checkVisibility();
